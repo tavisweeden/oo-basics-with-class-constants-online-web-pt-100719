@@ -6,12 +6,10 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
+    if brand = brand.uniq
     BRANDS << brand
-    BRANDS.uniq
     
     
-    #uniq returns only unique elements
-    #.size returns array length 
   end
 
   def cobble
