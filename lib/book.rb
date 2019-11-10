@@ -8,7 +8,7 @@ class Book
   end
   
   def title
-    @title = title
+    @title
   end
   
   def genre=(genre)
@@ -16,7 +16,7 @@ class Book
     GENRES << genre
     
     def genre
-      @genre = genre
+      @genre 
     end
     
   end
