@@ -2,7 +2,7 @@ class Book
   attr_accessor :author, :page_count,
   attr_reader :title, :genre
     
-#learn spec/01_book_spec.rb 
+learn spec/01_book_spec.rb 
   
   def initialize(title)
     @title = title
